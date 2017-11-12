@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.video.onlinestream.hu" version="1.0.0" name="Online Stream" provider-name="aky01">
+	<requires>
+		<import addon="xbmc.python" version="2.24.0" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Online Stream addon for Kodi</summary>
+		<description lang="en">A legtöbb magyar rádió és TV már KODI-n is!</description>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+		<website>https://onlinestream.hu/</website>
+		<platform>all</platform>
+		<language></language>
+		<forum></forum>
+		<email></email>
+	</extension>
+</addon>
+
+<addon id="repository.onlinestream" version="1.0" name="Online Stream Repository" provider-name="aky01">
+	<extension point="xbmc.addon.repository" name="Online Stream Repository">
+        <info compressed="false">https://raw.githubusercontent.com/OStreamH/repository.onlinestream/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/OStreamH/repository.onlinestream/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/OStreamH/repository.onlinestream/master</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Online Stream Repository</summary>
+		<description ></description>
+		<platform>all</platform>
+	</extension>
+</addon>
+</addons>
