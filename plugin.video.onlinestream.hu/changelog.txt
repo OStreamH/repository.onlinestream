@@ -5,3 +5,7 @@
 [B]1.1.0[/B]
 
 - Kedvencek menü
+
+[B]1.1.1[/B]
+
+- Cache javítás
