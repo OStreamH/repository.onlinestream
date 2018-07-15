@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.onlinestream.hu" version="1.1.1" name="Online Stream" provider-name="aky01">
+<addon id="plugin.video.onlinestream.hu" version="1.1.2" name="Online Stream" provider-name="aky01">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 	</requires>
@@ -9,11 +9,11 @@
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Online Stream addon for Kodi</summary>
-		<description lang="en">A legtöbb magyar rádió és TV már KODI-n is!</description>
+		<description lang="hu">A legtöbb magyar rádió és TV már KODI-n is!</description>
 		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
 		<website>https://onlinestream.hu/</website>
 		<platform>all</platform>
-		<language></language>
+		<language>hu</language>
 		<forum></forum>
 		<email></email>
 		<assets>
@@ -23,7 +23,7 @@
 			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
 			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
 		</assets>
-		<news>- Cache javítás</news>
+		<news>- Hibajavítás</news>
 	</extension>
 </addon>
 
