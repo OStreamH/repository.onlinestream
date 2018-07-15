@@ -1,11 +1,11 @@
-[B]1.0.0[/B]
-
-- Initial version
-
-[B]1.1.0[/B]
-
-- Kedvencek men�
+﻿[B]1.1.2[/B]
+- Hibajavítás
 
 [B]1.1.1[/B]
+- Cache javítás
 
-- Cache jav�t�s
+[B]1.1.0[/B]
+- Kedvencek menü
+
+[B]1.0.0[/B]
+- Initial version
