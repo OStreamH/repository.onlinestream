@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.onlinestream.hu" version="1.1.3" name="Online Stream" provider-name="aky01">
+<addon id="plugin.video.onlinestream.hu" version="1.1.4" name="Online Stream" provider-name="aky01">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 	</requires>
@@ -23,7 +23,9 @@
 			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
 			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
 		</assets>
-		<news>- Domain csere (onlinestream.live)</news>
+		<news>
+- API változás
+- Hibajavítások</news>
 	</extension>
 </addon>
 
