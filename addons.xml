@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.onlinestream.hu" version="1.1.4" name="Online Stream" provider-name="aky01">
+<addon id="plugin.video.onlinestream.hu" version="1.1.6" name="Online Stream" provider-name="aky01">
 	<requires>
-		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="xbmc.python" version="2.25.0" />
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="addon.py">
 		<provides>video</provides>
@@ -24,8 +24,8 @@
 			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
 		</assets>
 		<news>
-- API változás
-- Hibajavítások</news>
+- Bekapcsolható automatikus stream és felbontás választás
+- IPTV Manager (IPTV Simple) integráció (béta)</news>
 	</extension>
 </addon>
 
