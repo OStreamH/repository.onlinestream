@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.onlinestream.hu" version="1.1.5" name="Online Stream" provider-name="aky01">
+<addon id="plugin.video.onlinestream.hu" version="1.1.6" name="Online Stream" provider-name="aky01">
 	<requires>
 		<import addon="xbmc.python" version="2.25.0" />
 	</requires>
@@ -24,7 +24,8 @@
 			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
 		</assets>
 		<news>
-- Bekapcsolható automatikus stream és felbontás választás</news>
+- Bekapcsolható automatikus stream és felbontás választás
+- IPTV Manager (IPTV Simple) integráció (béta)</news>
 	</extension>
 </addon>
 
